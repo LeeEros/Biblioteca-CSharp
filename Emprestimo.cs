@@ -4,7 +4,7 @@ namespace Biblioteca
 {
 	public class Emprestimo
 	{
-		public int Id { get ; set; }
+		public int IdEmprestimo { get ; set; }
 		
 		public Cliente ClienteEmprestimo { get; set; }
 		public Livro LivroEmprestado { get; set; }
