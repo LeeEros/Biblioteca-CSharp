@@ -1,1 +1,14 @@
-[{"Id":1,"Titulo":"Scrum","Autor":"Júlio Cezar","Disponivel":true},{"Id":2,"Titulo":"Piralha","Autor":"Neymar Jr","Disponivel":true}]
+[
+    {
+        "Id": 1001,
+        "Titulo": "Dom Casrrumo",
+        "Autor": "Machado de Assis",
+        "Disponivel": true
+    },
+    {
+        "Id": 1002,
+        "Titulo": "O Cortiço",
+        "Autor": "Aluíso Azevedo",
+        "Disponivel": false
+    }
+]
