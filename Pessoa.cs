@@ -9,7 +9,7 @@ namespace Biblioteca
 		
 		public virtual void ExibirInformacoes()
 		{
-			Console.WriteLine($"Nome: {Nome}\n Data de Nascimento: {DataNascimento.ToShortDateString()}");
+			Console.WriteLine($"Nome: {Nome}\nData de Nascimento: {DataNascimento.ToShortDateString()}");
 		}
 	}
 }

@@ -11,17 +11,15 @@ namespace Biblioteca
 		
 		public void ExibirInformacoes()
 		{
-			Console.WriteLine($"ID: {Id}\nTítulo: {Titulo}\n Autor: {Autor}");
+			Console.WriteLine($"ID: {Id}\nTítulo: {Titulo}\nAutor: {Autor}");
 		}
 		
-		public void ExibirInformacoes(bool exibirDisponibilidade)
+		public void ExibirInformacoes(bool exibirDisponibilide)
 		{
 			ExibirInformacoes();
 			
-			if(exibirDisponibilidade)
-			{
-				Console.WriteLine($"Disponível: {Disponivel}");
-			}
+			if (exibirDisponibilide)
+				Console.WriteLine($"Diponível: {Disponivel}");
 		}
-	}
+	}	
 }

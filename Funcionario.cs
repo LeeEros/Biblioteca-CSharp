@@ -11,6 +11,7 @@ namespace Biblioteca
 		public override void ExibirInformacoes()
 		{
 			base.ExibirInformacoes();
-		}	
+		}
 	}
+
 }
